@@ -1,19 +1,33 @@
-# 🎈 Blank app template
+# 🔒 PyPassword Generator
 
-A simple Streamlit app template for you to modify!
+A simple and effective **Streamlit app** for generating secure passwords! Customize your password's length and complexity right from your browser.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pass-generator.streamlit.app/)
 
-### How to run it on your own machine
 
-1. Install the requirements
+## Run Locally
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+Clone the project
 
-2. Run the app
+```bash
+  git clone https://github.com/HowlVFX/password-generator.git
+```
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+Go to the project directory
+
+```bash
+  cd password-generator
+```
+
+Install dependencies
+
+```bash
+  pip install -r requirements.txt
+```
+
+Start the server
+
+```bash
+  streamlit run streamlit_app.py
+```
+
