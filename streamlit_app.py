@@ -8,7 +8,7 @@ numbers = '0123456789'
 symbols = '!#$%&()*+'
 
 # Title of the web app
-st.title("PyPassword Generator")
+st.title("PyPassword Generator by Swayam")
 
 # Get user input via Streamlit form elements
 nr_letters = st.number_input("How many letters would you like in your password?", min_value=0, step=1, value=4)
